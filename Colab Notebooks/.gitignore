@@ -1,0 +1,14 @@
+# prevent all .gz files to be git add.
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+
+# prevent all below folders to be git add.
+data/
+logs/
+results/
+__pycache__/
+.ipynb_checkpoints/
